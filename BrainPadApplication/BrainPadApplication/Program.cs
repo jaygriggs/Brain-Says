@@ -37,13 +37,13 @@ namespace BrainPadApplication
             if (BrainPad.Buttons.IsDownPressed())
             {
                 BrainPad.Display.DrawSmallTextAndShowOnScreen(1, 0,
-                    "Brain will tell you\r\nwhich way to tilt.\r\nPress Up to start\r\nBrain Says\r\n\nPress Right\r\nFor Full Lights");
+                    "Brain will tell you\r\nwhich way to tilt.\r\nPress Up to start\r\nBrain Says\r\nPress Right\r\nFor Full Lights");
                 BrainPad.Wait.Seconds(1.0);
                 BrainPad.Display.DrawSmallTextAndShowOnScreen(1, 0,
-                    "Brain will tell you\r\nwhich way to tilt.\r\nPress Up to start\r\nBrain Says\r\n\nPress Left\r\nTo Enable Sound");
+                    "Brain will tell you\r\nwhich way to tilt.\r\nPress Up to start\r\nBrain Says\r\nPress Left\r\nTo Enable Sound");
                 BrainPad.Wait.Seconds(1.0);
                 BrainPad.Display.DrawSmallTextAndShowOnScreen(1, 0,
-                    "Brain will tell you\r\nwhich way to tilt.\r\nPress Up to start\r\nBrain Says\r\n\nPress Down\r\nTo Repeat");
+                    "Brain will tell you\r\nwhich way to tilt.\r\nPress Up to start\r\nBrain Says\r\nPress Down\r\nTo Repeat");
             }
             if (BrainPad.Buttons.IsLeftPressed())
                 SoundOn = true;
